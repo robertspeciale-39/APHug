@@ -1,0 +1,50 @@
+AP HUMAN GEOGRAPHY TRIVIA LOOP
+30 questions  |  Windows quick start
+
+PLAY IN YOUR BROWSER
+
+1. Download AP_Human_Geography_Trivia_30_Questions.zip.
+2. In File Explorer, right-click the ZIP and choose Extract All. Click
+   Extract, then open the AP_Human_Geography_Trivia folder.
+3. Double-click index.html. If Windows opens a different app, right-click
+   index.html and choose Open with > Microsoft Edge or Google Chrome.
+4. Click Start fullscreen with music. The first question starts when
+   the music is ready. If you still see the browser toolbar, press F11.
+5. Keep the presentation tab open. Each question runs for one minute.
+   At 30:00 the player automatically returns to question 1 and starts
+   a second pass. It keeps repeating until you close the tab.
+6. Move your mouse to show Mute, Fullscreen, and Restart. Press Esc to
+   leave page fullscreen. If you used F11, press F11 again to exit.
+
+You can play offline and without installing anything. Keep index.html,
+app.js, and the assets folder together. To move the presentation to
+another computer, copy the entire extracted folder.
+
+PROJECT FILES
+
+The ZIP includes the ready-to-play build, React and TypeScript source,
+local images and music, and build and rendering scripts. The questions,
+answers, and explanations are in src/questions.ts. The timing is in
+src/timeline.ts, and src/scene.ts draws the presentation.
+
+Optional developer rebuild with Node.js 24 or later and npm. Open a
+terminal in the extracted project folder and run:
+
+    npm install
+    npm run check
+    npm run build
+
+To export a video with Chrome or Edge and FFmpeg installed and FFmpeg
+available on PATH, run npm run render.
+
+CONTENT AND ASSETS
+
+The questions mix topics from all seven units of the AP Human Geography
+Course and Exam Description, with one correct answer per question.
+https://apcentral.collegeboard.org/media/pdf/ap-human-geography-course-and-exam-description.pdf
+
+The three prototype questions are first, followed by 27 additional
+questions. The geography images are generated illustrations. The
+original instrumental score repeats every three minutes and remains
+aligned with the presentation at the 30-minute loop point. Font and
+JavaScript license notices are in assets.

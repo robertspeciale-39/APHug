@@ -1,0 +1,20 @@
+{
+  "name": "ap-human-geography-trivia-loop",
+  "version": "3.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "check": "tsc --noEmit",
+    "render": "node scripts/render.cjs"
+  },
+  "dependencies": {
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "esbuild": "0.28.2",
+    "typescript": "5.9.3"
+  }
+}
